@@ -1,0 +1,30 @@
+.container{
+    border: 3px solid black;
+    background-color: coral;
+}
+
+#bloco1{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+#bloco2{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    }
+
+/* o ultimo valor é referente a opacidade */
+#bloco3{
+background-color: rgb(1, 19, 107, 0.5);
+color: white;
+text-align: center;
+width: 200px;
+height: 200px;
+margin: 50px;
+}

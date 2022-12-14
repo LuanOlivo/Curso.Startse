@@ -1,0 +1,32 @@
+.flex-container{
+    display: flex;
+    /* faz o elemento se alinhar em linha */
+    flex-direction: row;
+    background-color: dodgerblue;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 200px;
+}
+
+.flex-container div{
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+}

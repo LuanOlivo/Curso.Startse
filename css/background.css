@@ -1,0 +1,14 @@
+
+
+div{
+    border: 1px solid black;
+    background-color: rebeccapurple;
+    color: white;
+        /* declaração para utilizar img de arquivos */
+        background-image: url(../img/arara.jpg);
+        /* usado para definir quantas vezes a imagem de fundo se repete */
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 700px;
+        height: 700px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Tipos de input</title>
+        <link rel="stylesheet" href="/css/input.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Tipos de input</h1>
+
+            <section>
+                <p>A definição correta do elemento input garante um filtro na entrada de dados, pois o navegador saberá qual tipo de dado esperar em cada campo, e isso ajuda na validação do formulário antes do envio final. Utilize o atributo required em cada input obrigatório.
+
+                </p>
+            
+        </header>
+        </section>
+            <hr>
+        <form action="url" method="get">
+            <div>
+                <!--Define um botão clicável (usado principalmente com um JavaScript para ativar um script) Value = o que fica escrito no botão -->
+                <h3>Button</h3>
+                <input type="button" value="Texto aqui">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define uma caixa de seleção para seleção de várias opções-->
+                <h3>Checkbox</h3>
+                <input type="checkbox" name="item1" id="item1">
+                <label for="item1">Teste</label>
+
+                <input type="checkbox" name="item2" id="item2" checked>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um seletor de cores em hexadecimal-->
+                <h3>Color</h3>
+                <input type="color" name="2" id="2">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um controle para selecionar data (ano, mês, dia (sem hora))-->
+                <h3>Date</h3>
+                <input type="date" id="3" name="3" value="2022-11-22" min="2022-11-21" max="2022-31-12">
+
+                <p>Min defini a data minima e Max a data Max </p>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um controle para selecionar data e hora (ano, mês, dia, hora (sem fuso horário)-->
+                <h3>Datetime-local</h3>
+                <input type="datetime-local" name="4" id="4">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo para entrar com endereço de e-mail-->
+                <h3>Email</h3>
+                <input type="email" id="mail" required placeholder="digite seu melhor email">
+                <p>required torna o campo obrigatório 
+                    <br> placeholder serve para escrever dentro do campo para leitura do usuario</p>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo para selecionar um arquivo e um botão "Procurar" (para uploads de arquivo)-->
+                <h3>File</h3>
+                <input type="file" name="6" id="6">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo oculto-->
+                <h3>Hidden</h3>
+                <input type="hidden" name="sete" style="border: ;3px solid black">
+                <p>Campo oculto</p>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define uma imagem como o botão de envio-->
+                <h3>Image</h3>
+                <input type="image" src="img/arara.jpg" alt="arara" width="100px">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um controle para selecionar mês e ano (sem fuso horário)-->
+                <h3>Month</h3>
+                <input type="month" name="8" id="8">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo para selecionar um número inteiro-->
+                <h3>Number</h3>
+                <input type="number" name="idade" id="idade" min="18" max="100" step="5">
+                <p>step serve para dizer de quantos em quantos ira adicionar</p>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo para senha-->
+                <h3>Password</h3>
+                <input type="password" name="password" id="pass" minlength="8" required>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um botão de opção para seleção única-->
+                <h3>Radio</h3>
+                <input type="radio" name="opcao" id="op1">
+                <label for="op1">Opção 1</label>
+                <input type="radio" name="opcao" id="op2">
+                <label for="op2">Opção 2</label>
+                <input type="radio" name="opcao" id="op3">
+                <label for="op3">Opção 3</label>
+                <p>Definindo o mesmo nome e alterando o id voce condiciona a somente um ser marcado</p>
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um controle de intervalo (como um controle deslizante)-->
+                <h3>|Range</h3>
+                <input type="range" name="12" id="12" min="0" max="11" value="3">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um botão para reinicar o preenchimento do formulário-->
+                <h3>Reset</h3>
+
+                <input type="reset" value="Texto aqui">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo de texto para inserir uma string de pesquisa-->
+                <h3>Search</h3>
+                <input type="search" name="13" id="13">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um botão para enviar os dados do formulário-->
+                <h3>Submit</h3>
+                <input type="submit" value="Texto aqui">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo para inserir um número de telefone-->
+                <h3>Tel</h3>
+                <input type="tel" name="14" id="14">
+            </div>
+            <hr>
+
+            <div>
+                <!--Input padrão. Define um campo de texto de linha única-->
+                <h3>Text</h3>
+                <input type="text" name="15" id="15">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um controle para inserir um horário (sem fuso horário)-->
+                <h3>Time</h3>
+                <input type="time" name="16" id="16">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um campo para inserir uma URL-->
+                <h3>URL</h3>
+                <input type="url" name="17" id="17">
+            </div>
+            <hr>
+
+            <div>
+                <!--Define um controle para selecionar semana e ano (sem fuso horário)-->
+                <h3>Week</h3>
+                <input type="week" name="18" id="18">
+            </div>
+        </form>
+
+    </body>
+</html>
+

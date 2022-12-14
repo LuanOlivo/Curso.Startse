@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+   <h1>Contato</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div>
+                    <label for="name" class="obrigatorio">Nome*:</label>
+                    <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                </div>
+
+                <div>
+                    <label for="email" class="obrigatorio">E-mail*:</label>
+                    <input type="mail" name="email" id="email" placeholder="exemplo@email.com" required>
+                </div>
+
+                <div>
+                    <label for=""></label>
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <!---Selected serve para ja vir por padrão esse campo que foi declarado vazio-->
+                    <option value="" selected></option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <!--
+            <fieldset>
+                <legend>Assunto</legend>
+                <input type="radio" name="assunto" id="reclamacao">
+                <label for="reclamacao">Reclamação</label>
+                <input type="radio" name="assunto" id="sugestao">
+                <label for="sugestao">Sugestão</label>
+                <input type="radio" name="assunto" id="elogio">
+                <label for="elogio">Elogio</label>
+                <input type="radio" name="assunto" id="outro">
+                <label for="outro">Outro</label>
+            </fieldset> -->
+
+            <div>
+                <label for="mesagem" class="obrigatorio">Mensagem*:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite a mensagem" required></textarea>
+            </div>
+
+            <div class="cadastro">
+                <input type="checkbox" name="cadastro" id="cadastro">
+                <label for="cadastro" class="cadastro">Desejo receber email informativos</label>
+            </div>
+
+            <div class="cadastro">
+                <input type="submit" value="Enviar mensagem">
+            </div>
+        </form>
+   
+</body>
+</html>

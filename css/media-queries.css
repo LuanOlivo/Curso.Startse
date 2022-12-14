@@ -1,0 +1,26 @@
+/* serve para definir o tipo de caracter */
+@charset "UTF-8";
+
+
+/* serve para importar um arquivo css */
+@import url(/css/unidade-de-medida.css);
+
+
+
+@media screen and (min-width: 200px){
+    body{
+        background-color: lightgreen;
+    }
+    
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background-color: blue;
+    }
+    
+}
+
+body{
+    background-color: red;
+}

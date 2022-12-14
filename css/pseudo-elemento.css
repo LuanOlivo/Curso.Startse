@@ -1,0 +1,43 @@
+/* combinado c elemento com classe e pseudo elemento */
+p.destaque::first-letter{
+    font-size: 30px;
+    background-color: #AAD;
+}
+
+/* combinando classe com pseudo elemento */
+.destaque::first-letter{
+    font-size: 30px;
+    background-color: #AAD;
+    color: white;xistem diversos meios para procurar emprego. Não é mais necessário bater de porta em porta para saber se existem vagas, mas ouso dizer que essa ainda pode ser uma maneira eficiente.
+}
+/* elemento */
+p{
+    background-color: #ccf;
+}
+
+/* elemento mais pseudo elemento */
+div::first-line{
+    color: blue;
+}
+
+/* todos elementos li */
+li{
+    color: green;
+}
+
+/* marcadores da OL */
+::marker{
+    color: red;
+}
+
+/* seleciona li de todas ul com pseudo elemento */
+ul li::marker{
+    color: blueviolet;
+}
+
+/* altera a cor do texto quando selecionado */
+::selection{
+    background-color: yellow;
+    color: red;
+}
+

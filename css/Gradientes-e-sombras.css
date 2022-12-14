@@ -1,0 +1,21 @@
+div {
+    min-height: 150px;
+    margin: 50px;
+}
+
+#box1 {
+    /* Gradiente de cima para baixo da direita para esquerda */
+    background-image: linear-gradient(to bottom right, blue , green ,yellow, red);
+    /* Sombra */
+    box-shadow: 5px 10px 15px gray;
+}
+
+/* Gradiente de fora para dentro */
+#box2 {
+    background-image: radial-gradient(ellipse closest-corner at center, blue ,yellow, red);
+    box-shadow: -15px -10px 15px green;
+}
+
+#box3{
+    background-image: conic-gradient(green, yellow, blue);
+}

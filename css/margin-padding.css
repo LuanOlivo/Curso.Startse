@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+}
+div{
+    background-color: pink;
+    border: solid 3px red;
+}
+
+.container{
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+.container2{
+    margin-top: 50px;
+    background-color: green;
+    border: 2px solid black;
+}
+#bloco1{
+margin: auto;
+width: 200px;
+height: 200px;
+background-color: black;
+color: white;
+}
+
+#bloco2{
+margin-left: auto;
+width: 200px;
+height: 200px;
+background-color: white;
+
+}
+
+#bloco3{
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    }
+
+#bloco4{
+margin-right: 50px, auto;
+width: 200px;
+height: 200px;
+background-color: red;
+color: white;
+border: black solid 2px;
+    }
+        
+#bloco5{
+margin: auto;
+width: 200px;
+height: 200px;
+background-color: white;
+        
+}
+        
+#bloco6{
+margin-left: auto;
+width: 200px;
+height: 200px;
+background-color: blue;
+color: white;
+     }
+
+#bloco7{
+margin-right: 50px, auto;
+width: 200px;
+height: 200px;
+background-color: red;
+color: white;
+border: black solid 2px;
+    }
+        
+#bloco8{
+margin: auto;
+width: 200px;
+height: 200px;
+background-color: white;
+margin-top: -200px;
+        }
+                
+#bloco9{
+margin-left: auto;
+margin-top: -210px;
+width: 200px;
+height: 200px;
+background-color: blue;
+color: white;
+padding: 50px,150px,50px,50px ;
+}

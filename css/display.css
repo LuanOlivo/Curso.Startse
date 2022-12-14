@@ -1,0 +1,62 @@
+/* exemplo de display none onde o elemento não aparece na tela */
+#none{
+    display: none;
+}
+
+/* outro exemplo onde o elemento não aparece na tela */
+#visiblility{
+    visibility: hidden;
+}
+
+/* transforma o elemento em bloco em elemento em linha */
+#Inline{
+    display: inline;
+    width: 300px;
+}
+
+/* transforma o elemento em linha em elemento em bloco */
+#Block{
+    display: block;
+}
+
+/*transforma o elemento em linha */
+#Inline-block{
+    display: inline-block;
+    width: 300px;
+
+}
+
+p{
+    background-color: rgb(54, 54, 143);
+    color: white;
+    border: 3px solid black;
+}
+
+div{
+    background-color: pink;
+    border: 3px solid red;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid red;
+}
+nav{
+    background-color: pink;
+}
+
+/* sobreescreve as propriedades definidas quando a tela tiver menos que 400px */
+@media screen and (max-width: 500px){
+    .nav li{
+        display: block;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    /* Elimina o elemento H1 quando os px forem menor que os definidos */
+    h1{
+        display: none;
+    }
+    
+}

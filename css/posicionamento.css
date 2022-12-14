@@ -1,0 +1,51 @@
+/* não aceita mudanças no posicionamento como left abaixo */
+#static{
+    position: static;
+    left: 30px;
+}
+/* aceita mudanças no posicionamento como o left */
+#relative{
+    position: relative;
+    left: 30px;
+}
+
+/* Mantem o elemento em  uma posição fixa na pagina */
+#fixed{
+    position: fixed; right: 0; bottom: 0;
+    padding: 10%;
+}
+
+#fixed2{
+    position: fixed; left: 0; top: 0;
+}
+
+/* Ele mantem o elemento statico não permite mudar com a responsividade */
+#absolute{
+    position: absolute; left: 0;bottom: 0;
+    padding: 5%;
+
+}
+
+/* fixa o menu conforme role a pagina */
+#sticky{
+    position: sticky; top: 0;
+}
+div {
+    background-color: pink;
+    border: 2px solid red;
+
+}
+
+div p{
+    background-color: white;
+    border: 2px solid red;
+    text-align: center;
+
+}
+
+nav{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}

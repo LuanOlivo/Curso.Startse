@@ -1,0 +1,19 @@
+#page {
+    background-color: rgb(154, 180, 84);
+}
+#page *{
+    border: solid 10px red;
+    background-color: blueviolet;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+#interno{
+    background-color: pink;
+}
+
+#interno *{
+    border: 3px solid grey;
+    
+}

@@ -1,0 +1,68 @@
+#border-box{
+    box-sizing: border-box;
+}
+
+#content-box{
+    box-sizing: content-box;
+}
+
+.um{ 
+    width: 300px;
+    height: 100px;
+    border: 10px solid black;
+}
+
+.dois{
+    width: 300px;
+    height: 100px;
+    border: 10px solid red;
+    padding: 50px;
+}
+
+.três{ 
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    border: 10px solid black;
+}
+
+.quatro{
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    border: 10px solid red;
+    padding: 50px;
+}
+
+#page{
+    height: 300px;
+    background-color: pink;
+    margin-bottom: 60px;
+}
+
+#page2{
+    height: 300px;
+    background-color: pink;
+}
+
+#page div{
+    /* box-sizing: border-box; */
+    border: 1px dashed red;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+#page2 div{
+    box-sizing: border-box;
+    border: 1px dashed red;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}

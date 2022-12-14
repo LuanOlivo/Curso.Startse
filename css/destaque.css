@@ -1,0 +1,14 @@
+h1 .destaque{
+    color: yellow;
+}
+
+h1.destaque{
+    color: red;
+}
+
+#conteudo { font-size: 11px; }
+
+#conteudo span { 
+    font-size: 2em;
+    background-color: hsl(0, 100%, 50%);
+ }

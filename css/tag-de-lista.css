@@ -1,0 +1,21 @@
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+ul.menu li a{
+    text-decoration: none;
+}
+
+ul.menu li:hover{
+    background-color: blueviolet;
+}
+
+ul.menu li:hover a{
+    text-decoration: underline;
+}

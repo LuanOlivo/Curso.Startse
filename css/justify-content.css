@@ -1,0 +1,37 @@
+.flex-container{
+    display: flex;
+    /* faz o elemento se alinhar em linha */
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+    align-items: stretch;
+    height: 300px;
+}
+
+.flex-container div{
+    background-color: white;
+    width: 10%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.flex-end{
+justify-content: flex-end;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}

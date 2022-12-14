@@ -1,0 +1,38 @@
+#hover:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#visited:visited{
+    color: gold;
+}
+
+
+#focus:focus{
+background-color: aquamarine;
+}
+
+#active:active{
+   background-color : red;
+}
+
+#link:link {
+    color: black;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.focus:focus {
+    background-color: yellow;
+}
+
+input:checked{
+    height: 30px;
+    width: 30px;
+}
+
+.required:required{
+    background-color: chartreuse;
+}

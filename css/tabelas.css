@@ -1,0 +1,30 @@
+#customer{
+    font-family: Arial, Helvetica, sans-serif;
+    /* Serve para tirar o espaço de borda entre as celulas */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customer td, #customer th{
+    border: 1px solid #ddd;
+    padding: 25px 10px;
+}
+
+/* Serve para alternar o fundo da linha e facilitar a visibilidade*/
+#customer tr:nth-child(even){background-color: #f2f2f2;}
+
+/* customização para quando o mouse tiver acima */
+#customer tr:hover{
+    background-color: #dfd;
+    color: rgb(48, 17, 161);
+    /* torna a letra em negrito */
+    font-weight: bolder;
+}
+/* customização do cabeçalho */
+#customer th{
+    background-color: #04AA6D;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
